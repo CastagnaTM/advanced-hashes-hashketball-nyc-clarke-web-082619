@@ -32,7 +32,7 @@ def game_hash
 end
 
 def all_players
-game_hash[:home][:players].concat(game_hash[:away][:players])}
+game_hash[:home][:players].concat(game_hash[:away][:players])
 end
 
 def find_player(player_name)
