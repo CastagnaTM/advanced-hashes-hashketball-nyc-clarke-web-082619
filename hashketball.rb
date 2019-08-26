@@ -36,7 +36,8 @@ game_hash[:home][:players].concat(game_hash[:away][:players])}
 end
 
 def find_player(player_name)
-all_players.find do |player_hash|
-  player_hash [:player_name] == player_name
+  all_players.find do |player_hash|
+    player_hash [:player_name] == player_name
+  end
 end
 binding.pry
